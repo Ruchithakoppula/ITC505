@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/meldina');
+@import url('https://fonts.cdnfonts.com/css/maulysia');
+@import url('https://fonts.cdnfonts.com/css/kambino');
+body{
+    background-color: #bbbbc4;
+}
+.mainhead{
+    background-color: #3a3a45;
+    color: #bbbbc4;
+    padding: 35px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Meldina', sans-serif;
+    font-size: 40px;
+}
+h1{
+    color: #3a3a45;
+    border-color: #3a3a45;
+    border-style: solid;
+    border-left-width: 15px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Maulysia', sans-serif;
+    font-size: 30px;                                                
+}
+p,ul{
+    color: #3a3a45;
+    font-family: 'Kambino', sans-serif;
+    font-size: 25px;
+}
+hr{
+    border-color: #3a3a45;
+    border-style: solid;
+}
+img{
+    height: 300px;
+    border-radius: 5px;
+}
