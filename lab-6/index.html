@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6 - Version 2</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Distance Calculator</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="converter">
+            <input type="number" id="tempInput" class="temp-input" placeholder="Enter Value">
+            <select id="tempType" class="temp-type">
+                <option value="celsius">kilometer to miles</option>
+                <option value="fahrenheit">miles to kilometer</option>
+            </select>
+            <br>
+            <button onclick="convertTemperature()" class="convert-button">Convert</button>
+            <br>
+            <div id="convertedTemp" class="converted-temp"></div>
+        </div>
+    </main>
+    <aside>
+        <a href="https://www.amazon.com/Google-Pixel-Watch-Smartwatch-Stainless/dp/B0BDSDCFN4/ref=sr_1_12_sspa?crid=1Z5BMM0K6NTGG&dib=eyJ2IjoiMSJ9.Gm4LeqGhDqnej8n19fmPADQiawZh-WF8vDFLg6BQWrGshHps_uMvnEh6vqpqsZtmn9iv-MixZO6DlMQkv1rlSbaB2HXgsoFWGxIrwaevhjOXCspDArWNllEGveIAYLwyYfYHAcIBZ44t4_vRtumJ4Ptv7VWeNtuK5pa9svaaTOFM1nZ1oNLQVhSEAuZsITYU2GBhpS_vgpKXj0geE2BxpFBeNF_f8KXRXK24MfXGS50.XtIURYHWcNjjfqkwB8VIgX0EzDQ5Z_8164X6PXelbyg&dib_tag=se&keywords=smart%2Bwatch&qid=1712036689&sprefix=smart%2Caps%2C141&sr=8-12-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1" target="_blank">
+            <img src="https://m.media-amazon.com/images/I/61VVeNXaw4L._AC_SX679_.jpg" alt="Advertisement">
+        </a>
+        <h3>Click on the image to redirect to amazon.com</h3>
+    </aside>
+    <footer>
+        <h3>Addendum</h3>
+        <p>
+            <strong>Project Overview:</strong> This web page features a temperature converter tool, designed to convert temperatures between Celsius and Fahrenheit. The user can input a temperature value, select the conversion direction, and receive the converted temperature as output.
+        </p>
+        <p>
+            <strong>Implementation Details:</strong> The temperature converter is implemented using JavaScript. It involves capturing user input from an HTML form, processing the conversion in JavaScript based on the selected option (Celsius to Fahrenheit or vice versa), and displaying the result on the page.
+        </p>
+        <p>
+            <strong>Challenges and Solutions:</strong> A significant challenge was ensuring accurate conversion and handling invalid inputs. This was addressed by implementing input validation and using precise formulas for temperature conversion. Another challenge was creating a responsive and intuitive user interface, which was achieved using CSS Grid layout and modern styling techniques.
+        </p>
+        <p>
+            <strong>Learning Outcomes:</strong> Through this project, I gained a deeper understanding of JavaScript event handling, form input processing, and responsive web design using CSS Grid. It also reinforced the importance of user input validation and clear user feedback in web applications.
+        </p>
+        
+            <p>Last updated: 
+                <span id="lastModified"></span>
+            </p>
+        
+        <script type="text/javascript">
+             var x = document.lastModified;
+             document.getElementById('lastModified').textContent = x;
+        </script>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
