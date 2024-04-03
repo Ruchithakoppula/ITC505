@@ -1,13 +1,12 @@
 body {
     font-family: 'Genos', sans-serif;
     background-color:#1d7a59;
-    padding-top: 25%;
-    padding-bottom: 23%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
   }
   
   #game-container {
