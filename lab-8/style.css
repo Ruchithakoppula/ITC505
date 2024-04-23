@@ -1,8 +1,9 @@
+ @import url('https://fonts.cdnfonts.com/css/encode-sans-sc');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Encode Sans SC', sans-serif;   
   margin: 0;
   padding: 0;
-  background-color: lightblue;
+  background-color: #91D8E4;
 }
 
 .container {
@@ -37,10 +38,14 @@ form input[type="submit"] {
   width: 100%;
   padding: 10px;
   border: none;
-  background-color: #66a0df;
+  background-color: #B08BBB;
   color: black;
   cursor: pointer;
   border-radius: 5px;
+   font-family: 'Encode Sans SC', sans-serif;   
+}
+form input[type="submit"]:hover {
+  background-color: #0002A1;
 }
 
 .error {
@@ -60,7 +65,7 @@ h2 {
   text-align: center;
 }
 .sedan-regular {
-  font-family: "Sedan", serif;
+   font-family: 'Encode Sans SC', sans-serif;   
   font-weight: 800;
   font-style: normal;
 }
